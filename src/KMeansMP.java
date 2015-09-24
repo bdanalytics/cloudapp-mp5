@@ -37,7 +37,9 @@ public final class KMeansMP {
 
         //TODO
 
+	/* Commented out to clean compile giraph exercises only
         results.saveAsTextFile(results_path);
+	*/
 
         sc.stop();
     }
